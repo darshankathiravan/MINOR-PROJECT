@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;   
+    background-color: rgba(0, 0, 0, 0.623);
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #181818;
+}
+nav .logo{
+    width: 130px;
+}
+nav .logosrm{
+    width: 100px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+}
+.dexvdo{
+    position:absolute;
+    margin-left: 10px;
+    top: 20%;
+    width: 500px; 
+}
+.content{
+    position: absolute;
+    margin-left: 55%;
+    top: 30%;
+    margin-right: 10%;
+    
+}
+.content h2{
+    font-style: bold;
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.content h3{
+    font-family: cursive;
+    color: #ccccff;
+}
+.contact{
+    position: absolute;
+    top: 75%;
+    margin-left: 40%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+    font-style: bold;
+}
+.contactnav{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    padding: 20px;
+    
+}
+.contactnav ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin-left: 0%;
+    
+}
+.contactnav img{
+    align-items: center;
+    width: 50px;
+}
+.contactnav img h6{
+    align-items: center;
+}
